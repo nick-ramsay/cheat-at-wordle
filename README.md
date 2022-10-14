@@ -5,7 +5,10 @@ Hello, cheaters! If you want to find today's Wordle solution, copy and run the c
 1. Press the ```F12``` key to open DevTools
 2. Open the Console tab
 3. Paste the code snippet from the ```cheat.js``` file in the Console
-
+```
+let wordleSolution = JSON.parse(localStorage.getItem("nyt-wordle-state")).solution;
+console.log("Greetings, cheater! Today's Wordle is: " + wordleSolution);
+```
 4. Press the ```Enter``` key
 
 That's it, cheater!
